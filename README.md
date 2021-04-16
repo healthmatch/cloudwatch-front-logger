@@ -1,4 +1,4 @@
-# CloudWatch Front Logger [![Build Status](https://travis-ci.com/mpyw/cloudwatch-front-logger.svg?branch=master)](https://travis-ci.com/mpyw/cloudwatch-front-logger) [![Coverage Status](https://coveralls.io/repos/github/mpyw/cloudwatch-front-logger/badge.svg?branch=master)](https://coveralls.io/github/mpyw/cloudwatch-front-logger?branch=master) [![npm](https://img.shields.io/npm/dt/cloudwatch-front-logger.svg)](https://www.npmjs.com/package/cloudwatch-front-logger)
+# CloudWatch Front Logger [![Build Status](https://travis-ci.com/healthmatch/cloudwatch-front-logger.svg?branch=master)](https://travis-ci.com/healthmatch/cloudwatch-front-logger) [![npm](https://img.shields.io/npm/dt/@healthmatch/cloudwatch-front-logger.svg)](https://www.npmjs.com/package/@healthmatch/cloudwatch-front-logger)
 
 Save your browser console logs to AWS CloudWatch (Inspired by [agea/console-cloud-watch](https://github.com/agea/console-cloud-watch))
 
@@ -112,7 +112,7 @@ logger.install({
     if (!e.message) {
       return null
     }
-    
+
     let stack = null
     if (e.stack) {
       stack = e.stack
