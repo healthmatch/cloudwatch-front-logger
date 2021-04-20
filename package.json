@@ -1,6 +1,6 @@
 {
   "name": "@healthmatch/cloudwatch-front-logger",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Save your browser console logs to AWS CloudWatch (Inspired by agea/console-cloud-watch)",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -11,6 +11,7 @@
     "logging",
     "browser"
   ],
+  "sideEffects": false,
   "dependencies": {
     "@aws-sdk/client-cloudwatch-logs": "^3.10.0",
     "@babel/runtime": "^7.13.10"
@@ -51,12 +52,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mpyw/cloudwatch-front-logger.git"
+    "url": "git+https://github.com/healthmatch/cloudwatch-front-logger.git"
   },
   "author": "mpyw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mpyw/cloudwatch-front-logger/issues"
+    "url": "https://github.com/healthmatch/cloudwatch-front-logger/issues"
   },
-  "homepage": "https://github.com/mpyw/cloudwatch-front-logger#readme"
+  "homepage": "https://github.com/healthmatch/cloudwatch-front-logger#readme"
 }
